@@ -1,6 +1,6 @@
 FROM node:14-alpine
 
-WORKDIR /home/rah/mjs/mjs
+WORKDIR /home/rah/mjs/mjss
 
 COPY package*.json ./
 
