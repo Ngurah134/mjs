@@ -39,8 +39,8 @@ jobs:
           password: ${{ secrets.SERVER_PASSWORD }}
           port: ${{ secrets.SERVER_PORT }}
           script: |
-            cd /home/rah24/mjs/mjs
+            cd /home/rah24/mjs/mjss
             git pull origin main
             docker compose -f docker-compose.yml down
-            docker pull rah24/mjs
+            docker pull rah24/mjss
             docker compose -f docker-compose.yml up -d
