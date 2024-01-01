@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  your_node_app:
+    image: rah24/mjs
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 3000:3000
