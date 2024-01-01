@@ -42,5 +42,5 @@ jobs:
             cd /home/rah24/mjs/mjs
             git pull origin main
             docker compose -f docker-compose.yml down
-            docker pull elmaruis/mjss
+            docker pull rah24/mjs
             docker compose -f docker-compose.yml up -d
