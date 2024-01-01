@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   your_node_app:
-    image: rah24/mjs
+    image: rah24/mjss
     build:
       context: .
       dockerfile: ./Dockerfile
